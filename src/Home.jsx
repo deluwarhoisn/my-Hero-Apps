@@ -7,14 +7,14 @@ const Home = () => {
                 <h1 className='text-[72px] '>We Build<br /><span className='h-14 '>Productive</span>Apps</h1>
                 <p className=''>At.HERO.IO. we craft innovative apps designed to make everyday life simpler, smarter, and more exciting <br />.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 <div className='pt-16 space-x-6 '>
-                    <button className='h-[56px] w-[200px] border-2'>Google Play</button>
+                    <button className='h-[56px] w-[200px] border-2 '>Google Play</button>
                     <button className='border-2 h-[56px] w-[200px]'> App Store</button>
                 </div>
                 <div className='pt-4 px-50'>
                     <img src={hero} alt="" />
 
                 </div>
-                <div className='pt-10 bg-h-14 bg-linear-to-r from-[#6337E5] to-[#9865F3] h-[440px]'>
+                <div className='pt-10 bg-h-14 bg-linear-to-r from-[#6337E5] to-[#9865F3] h-[410px]'>
                     <h1 className='text-[48px] text-white pt-5'>Trusted by Millions, Built for You</h1>
                     <div className='flex justify-center items-center gap-[24px] pt-10'>
                          <div className='text-white'>
