@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { FaGithub } from "react-icons/fa6";
+import hero from '../assets/logo.png'
 const Navbar = () => {
     return (
         <div>
@@ -12,24 +13,26 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Home</a></li>
-         <a>Apps</a>
-        <li><a>Installation</a></li>
+       <li><a href="">Home</a></li>
+         <li><a href="">Apps</a></li>
+        <li><a href=""></a>Installation</li>
       </ul>
     </div>
-    <a className=" text-xl">HERO.IO</a>
+    <div className={hero}>
+         <a className=" text-xl"> HERO.IO</a>
+    </div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
+      <li><a href="">Home</a></li>
       <li>
-          <summary>Apps</summary>
+         <a href="">Apps</a>
       </li>
-      <li><a>Installation</a></li>
+      <li><a href="">Installation</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Contribute</a>
+    <button><a href="https://github.com/deluwarhoisn"> Contribute</a></button>
   </div>
   <div>
   </div>
