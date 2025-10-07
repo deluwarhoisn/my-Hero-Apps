@@ -2,8 +2,12 @@ import React from 'react';
 import hero from '../assets/hero.png';
 import { BiLogoPlayStore } from "react-icons/bi";
 import { FaAppStoreIos } from "react-icons/fa";
-
+import appsData from '../public/Data.json'
+import { FaFacebookF } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
 const Home = () => {
+
     return (
         <div>
             <div className='text-center'>
@@ -43,7 +47,7 @@ const Home = () => {
                     <h1 className='lg:text-[64px] md:text-[60px] text-4xl'>Trending Apps</h1>
                     <p>Explore All Trending Apps on the Market developed by us</p>
                 </div>
-                <div className='md:grid grid-cols-4 gap-4'>
+                {/* <div className='md:grid grid-cols-4 gap-4'>
                     <div>
                         <div className="card bg-base-100 w-96 shadow-sm">
                             <figure>
@@ -64,7 +68,39 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+                </div> */}
+                <div className='md:grid grid-cols-4 gap-8 pt-6 px-10 '>
+                    {appsData.map((app) => (
+                        <div key={app.id}>
+                            <div className="card bg-base-100 w-80  shadow-sm h-[435px]">
+                                <figure>
+                                    <img className='rounded ' src={app.image} alt={app.title} />
+                                </figure>
+                                <div className=" card-body">
+                                    <h2 className="card-title">{app.title}</h2>
+
+                                    <div className="card-actions justify-between">
+                                        <div className="badge badge-outline">{app.size}</div>
+                                        <div className="bg-amber-500 badge badge-outline">{app.ratingAvg} ⭐</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
+            </div>
+            <div className='md:pt-10 bg-black md:h-[183px]'>
+                <div className='text-white flex justify-center md:gap-250 '>
+                    <p>HERO.IO</p>
+                    <div><p>Social Links</p>
+                        <div className='flex gap-2 pt-3'>
+                            <FaFacebookF />
+                            <CiLinkedin />
+                            <FaXTwitter />
+                        </div>
+                    </div>
+                </div>
+                <p className='text-white text-center md:pt-10'>Copyright © 2025 - All right reserved</p>
             </div>
         </div>
     );
