@@ -6,22 +6,28 @@ import appsData from '../public/Data.json'
 import { FaFacebookF } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
+import { GoDownload } from "react-icons/go";
+
 const Home = () => {
 
     return (
         <div>
             <div className='text-center'>
-                <h1 className='lg:text-[]72px md:text-[72px] sm:text-[50px] text-3xl'>We Build<br /><span className='h-14 '>Productive</span>Apps</h1>
+                <h1 className='lg:text-[]72px md:text-[72px] sm:text-[50px] text-3xl'>We Build<br /><span className='h-14 text-linear-to-r from-[#6337E5] to-[#9865F3] text-[#632EE3]'>Productive</span> Apps</h1>
                 <p className=''>At.HERO.IO. we craft innovative apps designed to make everyday life simpler, smarter, and more exciting <br />.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 <div className='lg:pt-16 md:pt-16 pt-10 space-x-6 '>
-                    <button className='h-[56px] w-[200px] btn font-semibold'><BiLogoPlayStore /> Google Play</button>
-                    <button className='btn h-[56px] w-[200px] font-semibold'><FaAppStoreIos /> App Store</button>
+                   
+                    <button className='h-[56px] w-[200px] btn font-semibold '><BiLogoPlayStore /><a href="https://play.google.com/store/games?hl=en"></a>Google Play</button>
+                    
+                <button className='btn h-[56px] w-[200px] font-semibold'><FaAppStoreIos /><a href="https://www.apple.com/app-store/">App Store</a>
+                </button>
+                
                 </div>
                 <div className='md:pt-4 md:px-50 lg:px-50 lg:pt-4 '>
                     <img src={hero} alt="" />
 
                 </div>
-                <div className='md:pt-10 bg-h-14 bg-linear-to-r from-[#6337E5] to-[#9865F3] md:h-[410px]'>
+                <div className='rounded md:pt-10 bg-h-14 bg-linear-to-r from-[#6337E5] to-[#9865F3] md:h-[410px]'>
                     <h1 className='lg:text-[48px] md:text-[40px] text-3xl  text-white pt-5'>Trusted by Millions, Built for You</h1>
                     <div className='lg:flex md:flex  justify-center items-center gap-[24px] pt-10'>
                         <div className='text-white'>
@@ -72,15 +78,15 @@ const Home = () => {
                 <div className='md:grid grid-cols-4 gap-8 pt-6 px-10 '>
                     {appsData.map((app) => (
                         <div key={app.id}>
-                            <div className="card bg-base-100 w-80  shadow-sm h-[435px]">
+                            <div className="card bg-base-100 w-80  shadow-sm h-[400px]">
                                 <figure>
                                     <img className='rounded ' src={app.image} alt={app.title} />
                                 </figure>
                                 <div className=" card-body">
                                     <h2 className="card-title">{app.title}</h2>
 
-                                    <div className="card-actions justify-between">
-                                        <div className="badge badge-outline">{app.size}</div>
+                                    <div className="card-actions justify-between pt-7">
+                                        <div className="badge badge-outline text-[#00D390] font-semibold "> <GoDownload />{app.size}</div>
                                         <div className="bg-amber-500 badge badge-outline">{app.ratingAvg} ⭐</div>
                                     </div>
                                 </div>

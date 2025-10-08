@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/XrhdfNjm/demo-app-1.webp",
+    "title": "FitLife Tracker",
+    "companyName": "Healthify Inc.",
+    "id": 1,
+    "description": "Track your workouts, monitor your calories, and stay fit with real-time progress updates.",
+    "size": 85,
+    "reviews": 2450,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/XqShz15/meditation-mind-ease.jpg",
+    "title": "MindEase",
+    "companyName": "CalmWorks Ltd.",
+    "id": 2,
+    "description": "A meditation and mindfulness app designed to help you manage stress and anxiety.",
+    "size": 72,
+    "reviews": 3100,
+    "ratingAvg": 4.8,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1990 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GQfMjWbF/maxresdefault.jpg",
+    "title": "Budget Buddy",
+    "companyName": "FinTrack Co.",
+    "id": 3,
+    "description": "Easily track your expenses and manage your personal budget with smart insights.",
+    "size": 64,
+    "reviews": 1980,
+    "ratingAvg": 4.4,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tp2DyrsQ/images.jpg",
+    "title": "FoodLens",
+    "companyName": "TasteAI Corp.",
+    "id": 4,
+    "description": "Snap a photo to recognize foods, get nutrition info, and log your meals automatically.",
+    "size": 93,
+    "reviews": 4100,
+    "ratingAvg": 4.7,
+    "downloads": 820000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2720 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y72qYYGd/logo.png",
+    "title": "StudyPal",
+    "companyName": "EduSmart",
+    "id": 5,
+    "description": "Organize your study schedule, set reminders, and focus with Pomodoro timers.",
+    "size": 58,
+    "reviews": 1200,
+    "ratingAvg": 4.3,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8LvrMBHk/images-1.jpg",
+    "title": "TravelMate",
+    "companyName": "GoExplore",
+    "id": 6,
+    "description": "Discover destinations, plan itineraries, and manage your trips all in one place.",
+    "size": 105,
+    "reviews": 5600,
+    "ratingAvg": 4.9,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 4150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LDWZGRcs/images-2.jpg",
+    "title": "MusicFlow",
+    "companyName": "Rhythmix",
+    "id": 7,
+    "description": "Stream and download your favorite tracks with personalized recommendations.",
+    "size": 120,
+    "reviews": 8800,
+    "ratingAvg": 4.5,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 5750 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PG4jpYrY/images-1.png",
+    "title": "TaskForge",
+    "companyName": "Productify",
+    "id": 8,
+    "description": "A powerful productivity app to manage your daily tasks and team projects.",
+    "size": 78,
+    "reviews": 2650,
+    "ratingAvg": 4.4,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1290 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vC2N3gxQ/unnamed.webp",
+    "title": "Weatherly",
+    "companyName": "SkyData Labs",
+    "id": 9,
+    "description": "Accurate weather forecasts, live radar, and climate trend tracking at your fingertips.",
+    "size": 68,
+    "reviews": 4300,
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2910 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SwdQZj3Z/images-3.jpg",
+    "title": "FitFuel",
+    "companyName": "NutriTech",
+    "id": 10,
+    "description": "Personalized meal plans and healthy recipes tailored to your fitness goals.",
+    "size": 80,
+    "reviews": 3500,
+    "ratingAvg": 4.7,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2120 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/35NfzsNs/1200x630wa.png",
+    "title": "LangLearn",
+    "companyName": "LingoWorld",
+    "id": 11,
+    "description": "Learn new languages through interactive lessons, games, and real conversations.",
+    "size": 96,
+    "reviews": 6400,
+    "ratingAvg": 4.8,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 4630 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WNWQT4Gk/images-2.png",
+    "title": "DailyNews+",
+    "companyName": "InfoStream",
+    "id": 12,
+    "description": "Stay informed with real-time breaking news and custom news feed preferences.",
+    "size": 59,
+    "reviews": 3900,
+    "ratingAvg": 4.3,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1810 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gMRzvKhb/Nexa-Luxury-Split700x324-N-1715580858571-1715583087921.png",
+    "title": "SleepWell",
+    "companyName": "DreamSync",
+    "id": 13,
+    "description": "Improve your sleep with relaxing sounds, bedtime reminders, and sleep tracking.",
+    "size": 70,
+    "reviews": 5200,
+    "ratingAvg": 4.9,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 4030 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ZyVKRgD/codeninjainc-logo.jpg",
+    "title": "CodeNinja",
+    "companyName": "DevStudio",
+    "id": 14,
+    "description": "Learn coding interactively with hands-on challenges and community projects.",
+    "size": 103,
+    "reviews": 7200,
+    "ratingAvg": 4.7,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 5520 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PsJhvNwQ/Home-Fit-Logo-Modern-1200x1200.webp",
+    "title": "HomeFit",
+    "companyName": "WellCore",
+    "id": 15,
+    "description": "Access guided home workouts and bodyweight routines with expert trainers.",
+    "size": 88,
+    "reviews": 2100,
+    "ratingAvg": 4.5,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1120 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SwXC22RV/Best-Ride-Share-Apps.webp",
+    "title": "RideShare Pro",
+    "companyName": "UrbanMove",
+    "id": 16,
+    "description": "Book rides instantly, track your driver, and pay securely within the app.",
+    "size": 115,
+    "reviews": 8200,
+    "ratingAvg": 4.4,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HT90fb37/images-3.png",
+    "title": "Artify",
+    "companyName": "CreativeHub",
+    "id": 17,
+    "description": "Create digital art, illustrations, and designs with powerful creative tools.",
+    "size": 134,
+    "reviews": 9100,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 7300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/40nS0cc/images-4.jpg",
+    "title": "EventEase",
+    "companyName": "SocialSpark",
+    "id": 18,
+    "description": "Find, organize, and manage events seamlessly with ticket and RSVP options.",
+    "size": 77,
+    "reviews": 2600,
+    "ratingAvg": 4.5,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9HVJPGqW/happypaws-international-limited-logo.jpg",
+    "title": "PetCare+",
+    "companyName": "HappyPaws",
+    "id": 19,
+    "description": "Manage your pet’s health, vet appointments, and diet in one smart app.",
+    "size": 69,
+    "reviews": 1900,
+    "ratingAvg": 4.6,
+    "downloads": 380000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1050 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/23b09xsZ/original-fc4b7d7629073d416d1a74713f1522ed.webp",
+    "title": "GreenGrow",
+    "companyName": "EcoTech",
+    "id": 20,
+    "description": "Track your plants’ growth, watering schedule, and get gardening tips daily.",
+    "size": 81,
+    "reviews": 3400,
+    "ratingAvg": 4.7,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2220 }
+    ]
+  }
+]

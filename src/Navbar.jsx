@@ -1,6 +1,14 @@
-import React from 'react';
-import { FaGithub } from "react-icons/fa6";
-import hero from '../assets/logo.png'
+
+import { IoLogoGithub } from "react-icons/io5";
+
+import banner from '../assets/logo.png'
+
+
+
+
+
+
+
 const Navbar = () => {
     return (
         <div>
@@ -13,26 +21,26 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-       <li><a href="">Home</a></li>
+       <li><a href="/Home">Home</a></li>
          <li><a href="/Apps">Apps</a></li>
-        <li><a href=""></a>Installation</li>
+        <li><a href="/installation"></a>Installation</li>
       </ul>
     </div>
-    <div className={hero}>
-         <a className=" text-xl"> HERO.IO</a>
+    <div>
+         <a className="h-14 text-linear-to-r from-[#632EE3] to-[#9F62F2] text-xl text-[#632EE3]"> <span className={banner}>HERO.IO</span></a>
     </div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a href="">Home</a></li>
+      <li><a href="/Home">Home</a></li>
       <li>
-         <a href="">Apps</a>
+      <a href="/Apps">App</a>
       </li>
-      <li><a href="">Installation</a></li>
+      <li><a href="/Installation">Installation</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <button><a href="https://github.com/deluwarhoisn"> Contribute</a></button>
+    <button  className='btn h-14 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white'><IoLogoGithub /><a href="https://github.com/deluwarhoisn "> Contribute</a></button>
   </div>
   <div>
   </div>
