@@ -4,6 +4,7 @@ import appsData from '../../public/Data.json'
 import { FaGooglePlay } from "react-icons/fa";
 import { GrAppleAppStore } from "react-icons/gr";
 import dawn from '../assets/icon-downloads.png'
+import { Link } from 'react-router';
 
 const Home = () => {
     return (
@@ -20,7 +21,7 @@ const Home = () => {
                 </button>
                 
                 </div>
-                <div className='md:pt-4 md:px-50 lg:px-50 lg:pt-4 '>
+                <div className='md:pt-4 md:px-50 lg:px-90 px-6 lg:pt-4 '>
                     <img src={hero} alt="" />
 
                 </div>
@@ -69,6 +70,9 @@ const Home = () => {
                             </div>
                         </div>
                     ))}
+                </div>
+                <div className='text-center '>
+                   <button className='btn bg-linear-to-r from-[#6337E5] to-[#9865F3] text-white'> <Link to="/apps">Show All</Link></button>
                 </div>
             </div>
             

@@ -14,18 +14,18 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-    <Link to="/home">Home</Link>
+        className=" menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+    <Link to="/home"> Home</Link>
       <Link to="/Apps">Apps</Link>
       <Link to="/Installation">Installation</Link>
       </ul>
     </div>
     <img className='w-[40px] h-[40px]' src={img} alt="" />
-    <a className="btn btn-ghost text-xl  bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</a>
+    <Link to="/home" className="btn btn-ghost text-xl  bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-    <li className='hover-red'>  <Link to="/">Home</Link></li>
+    <li className=''>  <Link to="/">Home</Link></li>
       <li>
       
          <Link to="/Apps">Apps</Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn h-14 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"><IoLogoGithub /> Contribute</a>
+    <a className='btn h-14 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white' href="https://github.com/deluwarhoisn"><IoLogoGithub /> Contribute</a>
   </div>
 </div>
         </div>

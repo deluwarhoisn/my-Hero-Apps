@@ -1,16 +1,42 @@
-# React + Vite
+# Hero IO 🦸‍♂️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📱 App Name
+**Hero IO**
 
-Currently, two official plugins are available:
+## 📝 Description
+Hero IO is a dynamic and interactive web application that showcases heroes, their abilities, and key information in a modern and responsive interface.  
+It allows users to explore hero stats, learn about their backgrounds, and interact with a visually engaging UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Features
+- Hero listing with images and stats  
+- Detailed hero profile pages  
+- Responsive design for mobile and desktop  
+- Smooth animations and transitions  
+- Fast performance with React  
 
-## React Compiler
+## 🧰 Technologies Used
+- **React.js** – Frontend framework  
+- **Vite** – Fast build tool  
+- **Tailwind CSS** – Styling and layout  
+- **React Router** – Navigation  
+- **Lucide React** – Icon set  
+- **Framer Motion** – Animations  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+### 1. Clone the Repository
+2. Install Dependencies
+```bash
+git clone https://github.com/your-username/hero-io.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+3. Run the App
+npm run dev
+4. Open in Browser
+
+Go to 👉 http://localhost:5173
+
+📸 Preview
+
+(Add screenshots or demo link here)
+
