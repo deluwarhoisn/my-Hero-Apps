@@ -1,18 +1,12 @@
-
+import React from 'react';
+import { Link } from 'react-router';
+import img from '../assets/logo.png'
 import { IoLogoGithub } from "react-icons/io5";
-
-import banner from '../assets/logo.png'
-
-
-
-
-
-
 
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm">
+           <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,28 +15,28 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-       <li><a href="/Home">Home</a></li>
-         <li><a href="/Apps">Apps</a></li>
-        <li><a href="/installation"></a>Installation</li>
+    <Link to="/home">Home</Link>
+      <Link to="/Apps">Apps</Link>
+      <Link to="/Installation">Installation</Link>
       </ul>
     </div>
-    <div>
-         <a className="h-14 text-linear-to-r from-[#632EE3] to-[#9F62F2] text-xl text-[#632EE3]"> <span className={banner}>HERO.IO</span></a>
-    </div>
+    <img className='w-[40px] h-[40px]' src={img} alt="" />
+    <a className="btn btn-ghost text-xl  bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a href="/Home">Home</a></li>
+    <li className='hover-red'>  <Link to="/">Home</Link></li>
       <li>
-      <a href="/Apps">App</a>
+      
+         <Link to="/Apps">Apps</Link>
+          
+      
       </li>
-      <li><a href="/Installation">Installation</a></li>
+      <li><Link to="/Installation">Installation</Link></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <button  className='btn h-14 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white'><IoLogoGithub /><a href="https://github.com/deluwarhoisn "> Contribute</a></button>
-  </div>
-  <div>
+    <a className="btn h-14 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"><IoLogoGithub /> Contribute</a>
   </div>
 </div>
         </div>

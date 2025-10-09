@@ -1,11 +1,10 @@
 import React from 'react';
 import appData from '../../public/Data2.json'
-import { GoDownload } from "react-icons/go";
+import dawn from '../assets/icon-downloads.png'
 
 const Apps = () => {
-   
     return (
-        <div>
+          <div>
             
 
             <div className=' text-center'>
@@ -52,7 +51,7 @@ const Apps = () => {
 
 
               <div className="card-actions justify-between mt-3">
-                <div className="badge badge-outline text-[#00D390] font-bold"><GoDownload /> {app.size}</div>
+                <div className="badge badge-outline text-[#00D390] font-bold"><img className='h-[16px] w-[16px]' src={dawn} alt="" /> {app.size}</div>
                 <div className="badge badge-outline bg-amber-500">{app.ratingAvg} ⭐</div>
               </div>
             </div>
