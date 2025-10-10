@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router';
 import img from '../assets/logo.png'
 import { IoLogoGithub } from "react-icons/io5";
+import { IoHomeOutline } from "react-icons/io5";
+import { FaAppStore } from "react-icons/fa6";
+import { MdOutlineInstallDesktop } from "react-icons/md";
 
 const Navbar = () => {
     return (
@@ -15,24 +18,24 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className=" menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-    <Link to="/home"> Home</Link>
-      <Link to="/Apps">Apps</Link>
-      <Link to="/Installation">Installation</Link>
+    <Link to="/home"><IoHomeOutline /> Home</Link>
+      <Link to="/Apps"><FaAppStore />Apps</Link>
+      <Link to="/Installation"><MdOutlineInstallDesktop />Installation</Link>
       </ul>
     </div>
     <img className='w-[40px] h-[40px]' src={img} alt="" />
-    <Link to="/home" className="btn btn-ghost text-xl  bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</Link>
+    <a className='btn btn-ghost text-xl  bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent' href="/babu">HERO.IO</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-    <li className=''>  <Link to="/">Home</Link></li>
-      <li>
+    <li className='hover:bg-[#00b87a]'>  <Link to="/"><IoHomeOutline /> Home</Link></li>
+      <li className='hover:bg-[#00b87a]'>
       
-         <Link to="/Apps">Apps</Link>
+         <Link to="/Apps"><FaAppStore />Apps</Link>
           
       
       </li>
-      <li><Link to="/Installation">Installation</Link></li>
+      <li className='hover:bg-[#00b87a]'><Link to="/Installation"><MdOutlineInstallDesktop />Installation</Link></li>
     </ul>
   </div>
   <div className="navbar-end">
