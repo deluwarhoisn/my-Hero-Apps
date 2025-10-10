@@ -6,6 +6,7 @@ import { GrAppleAppStore } from "react-icons/gr";
 import dawn from '../assets/icon-downloads.png'
 import { Link } from 'react-router';
 
+
 const Home = () => {
     return (
         <div>
@@ -43,20 +44,20 @@ const Home = () => {
     </div>
 
     
-    <div className="pt-10 md:pt-16">
-      <img src={hero} alt="hero" className="mx-auto max-w-full h-auto rounded-xl" />
+    <div className="pt-10 md:pt-10 ">
+      <img src={hero} alt="hero" className=" mx-auto max-w-full h-auto rounded-xl" />
     </div>
 
    
-    <div className="mt-10 rounded-2xl bg-gradient-to-r from-[#6337E5] to-[#9865F3] text-white py-10 md:py-16 px-6">
+    <div className=" rounded-2xl bg-gradient-to-r from-[#6337E5] to-[#9865F3] text-white py-10 md:py-16 px-6">
       <h1 className="lg:text-[48px] md:text-[36px] text-2xl font-semibold">
         Trusted by Millions, Built for You
       </h1>
 
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-24 mt-10">
         <div>
-          <p className="opacity-80">Total Downloads</p>
-          <h1 className="lg:text-[64px] md:text-[48px] text-4xl font-bold">29.6M</h1>
+          <p className="opacity-80"> Total Downloads</p>
+          <h1  className="lg:text-[64px] md:text-[48px] text-4xl font-bold"> 29.6M</h1>
           <p className="text-sm opacity-80">21% more than last month</p>
         </div>
         <div>
@@ -103,8 +104,8 @@ const Home = () => {
     </div>
 
   
-    <div className="text-center pt-10">
-      <button className="btn bg-gradient-to-r from-[#6337E5] to-[#9865F3] text-white w-[180px] h-[50px] text-lg">
+    <div className="text-center p-10">
+      <button className="p btn bg-gradient-to-r from-[#6337E5] to-[#9865F3] text-white w-[180px] h-[50px] text-lg">
         <Link to="/apps">Show All</Link>
       </button>
     </div>

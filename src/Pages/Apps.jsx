@@ -6,10 +6,10 @@ import { Link } from 'react-router';
 const Apps = () => {
   const [search, setSearch] = useState('');
 
-  // Normalize search term
+ 
   const term = search.trim().toLowerCase();
 
-  // Filter apps by title
+  
   const searchedProducts = term
     ? appData.filter(app => app.title.toLowerCase().includes(term))
     : appData;
@@ -46,7 +46,7 @@ const Apps = () => {
         <div className="md:grid grid-cols-4 gap-9">
           {searchedProducts.map((app) => (
             <div key={app.id}>
-              <div className="card bg-base-100 w-[308px] shadow-sm hover:shadow-md p-5 transition-all duration-200">
+             <Link to="/AppDetails"> <div className=" card bg-base-100 w-[308px] shadow-sm hover:shadow-md p-5 transition-all duration-200">
                 <figure>
                   <img
                     src={app.image}
@@ -72,7 +72,7 @@ const Apps = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div></Link>
             </div>
           ))}
         </div>
