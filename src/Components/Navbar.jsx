@@ -24,7 +24,7 @@ const Navbar = () => {
       </ul>
     </div>
     <img className='w-[40px] h-[40px]' src={img} alt="" />
-    <a className='btn btn-ghost text-xl  bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent' href="/babu">HERO.IO</a>
+    <a className='btn btn-ghost text-xl  bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent' href="/">HERO.IO</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -39,7 +39,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className='btn h-14 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white' href="https://github.com/deluwarhoisn"><IoLogoGithub /> Contribute</a>
+    <a className='btn lg:h-14 md:h-14 h-10 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white' href="https://github.com/deluwarhoisn"><IoLogoGithub /> Contribute</a>
   </div>
 </div>
         </div>
